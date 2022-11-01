@@ -9,11 +9,11 @@ int main()
         scanf("%d", &arr[i]);
     }
     scanf("%d", &target);
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n-1; i++)
     {
-        sum = 0;
+       
         for (int j = 1; j < n; j++)
-        {
+        {   sum = 0;
             sum = arr[i] + arr[j];
             if (sum == target)
             {
@@ -21,6 +21,7 @@ int main()
             }
             printf("%d ",sum);
         }
+        sum=0;
         printf("\n");
     }
     if (result == 1)
