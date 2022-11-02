@@ -14,15 +14,18 @@ int main()
        
         for (int j = 1; j < n; j++)
         {   sum = 0;
+        if(i!=j){
+
             sum = arr[i] + arr[j];
+        }
             if (sum == target)
             {
                 result = 1;
             }
-            printf("%d ",sum);
+            // printf("%d ",sum);
         }
         sum=0;
-        printf("\n");
+        // printf("\n");
     }
     if (result == 1)
     {
