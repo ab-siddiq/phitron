@@ -327,3 +327,48 @@ Sample Input 0
 Sample Output 0  
 
 12 10 14 3 19 2 4 5 1 6
+### Hand Shakes
+---
+### Problem Statement
+
+Phitron planned to throw a party for the students. In the party we found that N students are present. However, as a formality we asked each student to shake hands with each other student. You will have to count the number of unique hand-shakes in that party. N will be an input in your C program and the total number of hand-shakes will be the output. Look at the sample input and outputs for clarification
+  
+  
+For example, if N=4 then total unique handshakes will be 6.  
+
+
+- 1 with 2
+- 1 with 3
+- 1 with 4
+- 2 with 3
+- 2 with 4
+- 3 with 4
+
+![image](https://user-images.githubusercontent.com/24230435/200128096-09cfecff-2cb6-4b3f-bbc2-89fcf9a661c3.png)
+
+### Input Format
+
+1. You will be given a positive integer ___N___
+
+### Constraints
+
+- 1 <= ___N___ <= 10^9
+
+###Output Format
+
+Output the count of unique hand shakes  
+
+Sample Input 0  
+
+5  
+
+Sample Output 0  
+
+10  
+
+Sample Input 1  
+
+17  
+Sample Output 1  
+
+136
