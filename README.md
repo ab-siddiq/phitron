@@ -14,6 +14,7 @@
 
     Sample Input:  
     123 435 34 612  
+    
     Sample Output:  
     Largest = 612  
     Smallest = 34
@@ -22,13 +23,16 @@
     For example,  
     Sample Input:  
     2346167  
+    
     Sample Output:  
     7 digits  
+    
     Since the input had 7 digits so the output is 7. ___Please use long long int as data type for this problem.___
 4. This time you need to find the sum of the digits of the input. So look at the sample input output.  
 
     Sample Input:  
     2346167  
+    
     Sample Output:  
     29 
     ___Explanation: Since, the sum of the digits is 2+3+4+6+1+6+7 = 29. So the output is 29.___
@@ -36,6 +40,7 @@
 
     Sample Input:  
     123  
+    
     Sample Output:  
     123, 122, 61, 60, 30, 15, 14, 7, 6, 3, 2, 1  
   
@@ -59,6 +64,7 @@
 
     Sample Input 1:  
     12 18  
+    
     Sample Output 1:  
     The GCD of 12 and 18 is 6.  
   
@@ -69,6 +75,7 @@
 
     Sample Input 1:  
     12 18  
+    
     Sample Output 1:  
     The LCM of 12 and 18 is 36.  
   
@@ -78,8 +85,10 @@
 
     Sample Input 1:  
     12  
+    
     Sample Output 1:  
     The factors of 12 are: 1, 2, 3, 4, 6, 12.  
+    
     Sample Input 2:  
     39  
   
@@ -89,8 +98,10 @@
 
     Sample Input 1:  
     12  
+    
     Sample Output 1:  
     Composite  
+    
     Sample Input 2:  
     1009  
   
@@ -313,7 +324,7 @@ English teacher Mr. Rahim of class Ten asked for the homeworks of the students. 
 - 1 <= ___N___ <= 20
 - 1 <= ___Roll___ <= 20
 - 0 <= ___K___ <= 20
-- 
+
 ### Output Format
 
 Output the rolls of the students in the right order that class teacher wants.  
@@ -354,7 +365,7 @@ For example, if N=4 then total unique handshakes will be 6.
 
 - 1 <= ___N___ <= 10^9
 
-###Output Format
+### Output Format
 
 Output the count of unique hand shakes  
 
@@ -369,6 +380,7 @@ Sample Output 0
 Sample Input 1  
 
 17  
+
 Sample Output 1  
 
 136
