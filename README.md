@@ -97,7 +97,8 @@
     Sample Output 2:  
     Prime
 ## Assignment 2
-## Missing Number
+### Missing Numbe
+---
 ### Problem Statement
 
 Given the sum of four numbers and three of those numbers, find the missing number. All four numbers are positive integers.
@@ -121,7 +122,7 @@ Print the missing number. Don't forget to print a new line after printing the va
 ### Sample Output 0
 
 4
-## Out of Team
+### Out of Team
 ---
 ### Problem Statement
 
@@ -152,3 +153,43 @@ Sample Output 0
 Explanation 0  
 
 ___As 2 player could not score at lease 10 runs, the answer is 2.___
+### Different Pattern
+---
+### Problem Statement
+
+We have learned how to print patters in C language. This time you will have to print a different type of pattern of numbers. Look at the output to understand the pattern. You will have to write a C program that will take an integer number and creates similar patters for the corresponding inputs.
+
+### Input Format
+
+You will be given a positive integer ___N___ as input.  
+
+### Constraints
+
+1 <= ___N___ <= 20  
+
+Output Format  
+
+Output the pattern  
+
+Sample Input 0  
+
+5  
+
+Sample Output 0  
+
+1  
+2 1  
+3 2 1  
+4 3 2 1  
+5 4 3 2 1  
+
+Sample Input 1  
+  
+4  
+
+Sample Output 1
+  
+1
+2 1
+3 2 1
+4 3 2 1
