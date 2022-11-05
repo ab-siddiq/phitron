@@ -193,3 +193,31 @@ Sample Output 1
 2 1
 3 2 1
 4 3 2 1
+### Highest Mark
+---
+### Problem Statement
+
+There are ___N___ students in a class. Recently they got their Math course marks. One of them got the highest marks. So now they want to know how much more marks they need to get the highest mark. Can you calculate for every student what is the difference between their marks and the highest marks and print them!
+
+### Input Format
+
+1. First line will contain ___N___
+2. Second line will contain the marks of ___N___ students
+
+### Constraints
+ 
+1 <= ___N___ <= 100  
+0 <= ___Marks___ <= 100  
+
+Output Format  
+
+Output the difference between the marks of any student and highest marks  
+
+Sample Input 0  
+
+5  
+15 25 50 24 48  
+
+Sample Output 0  
+  
+35 25 0 26 2
