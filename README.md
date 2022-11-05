@@ -271,7 +271,7 @@ Noman is a social worker. He wants to keep his documents secret. That's why he h
 
 1. The first line will consist of ___T___, the number of test cases.
 2. The next ___T___ lines will contain a number ___N___, the secret code that Noman was thinking.
-3. Constraints
+### Constraints
    
 - 0 < ___T___ <= 100  
 - 0 < ___N___ <= 10^5
