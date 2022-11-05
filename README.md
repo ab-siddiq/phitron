@@ -261,3 +261,38 @@ Sample Output 0
 Explanation 0  
 
 ___For the first test case, from 35% to 60% it will take 25 minutes. From 60% to 80% it will take 40 minutes and from 80% to 100% it will take 60 minutes. In total 25+40+60=125 minutes.___
+### Secret Code
+---
+### Problem Statement
+
+Noman is a social worker. He wants to keep his documents secret. That's why he has bought a safe with him in his house. Now he wants to put a secret code into the safe. He was thinking that a number N would be a good secret code if no other number except 1 and N can divide that number. So, he was thinking of some numbers, can you help him to find the one he was looking for?
+
+### Input Format
+
+1. The first line will consist of ___T___, the number of test cases.
+2. The next ___T___ lines will contain a number ___N___, the secret code that Noman was thinking.
+3. Constraints
+   
+- 0 < ___T___ <= 100  
+- 0 < ___N___ <= 10^5
+### Output Format
+
+Ouput "Yes" if the number could be a secret code, otherwise "No" without the quotation. Put a new line after
+  
+Sample Input 0
+  
+
+5  
+73  
+35  
+92  
+1  
+60  
+
+Sample Output 0
+  
+Yes  
+No  
+No  
+No  
+No  
