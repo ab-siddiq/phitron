@@ -295,4 +295,35 @@ Yes
 No  
 No  
 No  
-No  
+No
+### Divide Them
+---
+### Problem Statement
+
+English teacher Mr. Rahim of class Ten asked for the homeworks of the students. Class captain has collected all the notebooks and put them in table. But the class captain put the notebooks of girls first, and then the notebooks of the boys. So Mr. Rahim asked the captain to keep the boy's notebooks to the left side and then the girl's notebooks. If the last index (index starts from 1) of a girl's notebook is K then can you print them in the right order? Note: If K is 0, that means there is no girl's notebook.
+
+### Input Format
+
+1. First line will contain N, the number of students in that class
+2. Second line will contain Roll of the students
+3. Third line will contain K, the last index of a girl's notebook
+
+### Constraints
+
+- 1 <= ___N___ <= 20
+- 1 <= ___Roll___ <= 20
+- 0 <= ___K___ <= 20
+- 
+### Output Format
+
+Output the rolls of the students in the right order that class teacher wants.  
+
+Sample Input 0  
+
+10  
+2 4 5 1 6 12 10 14 3 19  
+5  
+
+Sample Output 0  
+
+12 10 14 3 19 2 4 5 1 6
