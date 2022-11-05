@@ -121,3 +121,34 @@ Print the missing number. Don't forget to print a new line after printing the va
 ### Sample Output 0
 
 4
+## Out of Team
+---
+### Problem Statement
+
+
+Alien Cricket Board has decided to throw out a player out of the team if his performance is very bad against a match against Bangladesh team. If any player is not able to make at least ___K___ runs he will be out of the team. You will be given ___N___, the number of players and the runs that the players were able to take and ___K___, the minimum run that every player needs to take to be in the team. Can you tell the number of players that will be out of the team?
+
+### Input Format
+
+- First line will contain ___N___ and ___K___  
+- Second line will contain ___N___ values, the runs that the players have taken
+### Constraints
+
+1 <= ___N___ <= 100  
+0 <= ___K___ <= 100  
+0 <= ___Run___ <= 100  
+
+### Output Format
+
+Output the number of players that will be thown out of the Alien team  
+Sample Input 0  
+
+5 10  
+100 25 0 9 10  
+
+Sample Output 0  
+
+2  
+Explanation 0  
+
+___As 2 player could not score at lease 10 runs, the answer is 2.___
