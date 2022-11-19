@@ -384,3 +384,51 @@ Sample Input 1
 Sample Output 1  
 
 136
+
+# Mid Exam 2
+---
+### Operator!!
+---
+### Problem Statement
+
+You are given a string ___S___ consisting only ___+(Addition),*(Multiplication).___ The next line will contain two positive values.  
+
+Now, Calculate the sum of every operations. See the explanation for more clarification.  
+
+### Input Format  
+
+First line contains a string __S___, consisting only __+(Addition),*(Multiplication)___ operator.  
+The second line will contain two positive integers ___a___ and ___b___  
+
+### Constraints
+
+- ___1<= |S| <= 20___, where ___|S|___ means the length of ___S___.
+- ___1<= a, b <= 50___
+
+### Output Format
+
+Print the summation which were perform based on String ___S___.  
+
+### Sample Input 0
+
++*  
+5 10  
+
+### Sample Output 0
+
+65
+
+### Explanation 0
+
+- when S[i] = '+',Then a+b = 5 + 10 = 15 and sum = 15
+- when S[i] = '*',Then a*b = 5 * 10 = 50 and sum = 15 + 50 = 65
+
+### Sample Input 1
+
++***+  
+2 1  
+
+### Sample Output 1
+
+12
+
