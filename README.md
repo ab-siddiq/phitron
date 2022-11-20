@@ -431,4 +431,46 @@ Print the summation which were perform based on String ___S___.
 ### Sample Output 1
 
 12
+---
+Lucky Seven!!
+---
+### Problem Statement
 
+A palindrome is a word whose spelling is the same when we spell it from forward or backward. Your task is to print the word in the given condition:
+
+- Case #1: If a word is not a palindrome, then just print “Not Palindrome” without quotations.
+- Case #2: If the word is a palindrome and the word is too long if its length is strictly more than 7 characters. All too long words should be replaced with a special abbreviation.  
+
+This abbreviation is made like this: We will write down the first and the last letter of a word and between them - we will write the number of letters between the first and the last letters. That number is in the decimal system and doesn't contain any leading zeroes. Thus, "mmmmmabbammmmm" will be spelled as "m12m".
+
+- Case #3: If the word is plaindrome and its length is less than or equal 7 characters.Then, just print the word.
+
+### Input Format  
+
+The first line contains an integer ___T (1 ≤ T ≤ 20)___.  
+
+Each of the following ___T___ lines contains one word ___S___. Where, all the letters are lowercase and possess the lengths of from ___1 to 20___ characters.
+
+### Constraints
+
+- ___1 <= T <= 20___
+- ___1 <= |S| <= 20___, Here ___|S|___ means the length of ___S___.
+
+### Output Format
+
+Output as per the instructions given in the question. Also print which case it belongs to from the given 3 cases. See the sample output for more clarification.
+
+### Sample Input 0  
+
+4  
+madam  
+mmmmmaaaaammmmm  
+programminghero  
+phitron  
+
+### Sample Output 0  
+
+Case #3: madam  
+Case #2: m13m  
+Case #1: Not Palindrome  
+Case #1: Not Palindrome
