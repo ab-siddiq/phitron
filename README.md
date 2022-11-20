@@ -431,6 +431,7 @@ Print the summation which were perform based on String ___S___.
 ### Sample Output 1
 
 12
+
 ---
 ### Lucky Seven!!
 ---
