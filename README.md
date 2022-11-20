@@ -432,7 +432,7 @@ Print the summation which were perform based on String ___S___.
 
 12
 ---
-Lucky Seven!!
+### Lucky Seven!!
 ---
 ### Problem Statement
 
