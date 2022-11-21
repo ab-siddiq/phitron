@@ -502,3 +502,64 @@ Case #3: madam
 Case #2: m13m  
 Case #1: Not Palindrome  
 Case #1: Not Palindrome
+
+---
+### Two-Dimensional Operation
+---
+
+### Problem Statement
+
+A matrix is a 2D array of numbers arranged in rows and columns. We give you a Matrix of N rows and M columns.  
+
+Now your task is to do this operation on this matrix:  
+
+- If the value matches with the current row and column number then add 3 with the value.
+- If the value matches with only the current row number then add 2 with the value.
+- If the value matches with only the current column number then add 1 with the value.
+
+### Input Format
+
+- The first line contains N is the number of rows in this matrix and M is the number of columns in this matrix
+- The second line contains a 2D array Arr[i][j].
+
+### Constraints
+
+- 1 <= N, M <= 10
+- 0 <= Arr[i][j] <= 100
+
+### Output Format
+
+Print the matrix after the operation is done.  
+
+### Sample Input 0
+
+3 3  
+1 1 1  
+1 1 1  
+1 1 1  
+
+### Sample Output 0
+
+4 3 3  
+2 1 1  
+2 1 1  
+
+### Explanation 0
+
+In this sample input,
+
+![image](https://user-images.githubusercontent.com/24230435/203062650-25c93eba-88ea-4d06-845b-01014805b23b.png)
+
+
+When row=1 and column=1 also value of this location is 1, So we add 3 to this value after this operation the value of this location is 4.
+
+![image](https://user-images.githubusercontent.com/24230435/203062406-e40d3d1c-65a7-4c6b-b0dc-c5f78bda5550.png)
+
+
+When row=1 and column=2 also value of this location is 1 which match with the row only, So we add 2 to this value after this operation the value of this location is 3.
+
+![image](https://user-images.githubusercontent.com/24230435/203062520-13fe6438-0845-439c-b67f-07214f85cce0.png)
+
+When row=2 and column=1 also value of this location is 1 which match with the column only, So we add 1 to this value after this operation the value of this location is 2.  
+
+So this way we check all value row and column then do the operation.
