@@ -108,8 +108,11 @@
     Sample Output 2:  
     Prime
 ## Assignment 2
-### Missing Numbe
+
 ---
+### Missing Number
+---
+
 ### Problem Statement
 
 Given the sum of four numbers and three of those numbers, find the missing number. All four numbers are positive integers.
@@ -133,8 +136,11 @@ Print the missing number. Don't forget to print a new line after printing the va
 ### Sample Output 0
 
 4
+
+---
 ### Out of Team
 ---
+
 ### Problem Statement
 
 
@@ -164,8 +170,11 @@ Sample Output 0
 Explanation 0  
 
 ___As 2 player could not score at lease 10 runs, the answer is 2.___
+
+---
 ### Different Pattern
 ---
+
 ### Problem Statement
 
 We have learned how to print patters in C language. This time you will have to print a different type of pattern of numbers. Look at the output to understand the pattern. You will have to write a C program that will take an integer number and creates similar patters for the corresponding inputs.
@@ -204,8 +213,11 @@ Sample Output 1
 2 1
 3 2 1
 4 3 2 1
+
+---
 ### Highest Mark
 ---
+
 ### Problem Statement
 
 There are ___N___ students in a class. Recently they got their Math course marks. One of them got the highest marks. So now they want to know how much more marks they need to get the highest mark. Can you calculate for every student what is the difference between their marks and the highest marks and print them!
@@ -232,8 +244,11 @@ Sample Input 0
 Sample Output 0  
   
 35 25 0 26 2
+
+---
 ### Bablu and Phone
 ---
+
 ### Problem Statement
 
 One day Bablu went to the supermarket to buy a new phone. He was eagerly waiting for the launch of the Alien phone. It has a 15000 mAh battery. Finally he bought it! The salesman told him that, if the charge is ___less than 60%__ then it will ___take 1 minute___ to charge for ___every 1%___. If the charge is ___less than 80%___ then it will ___take 2 minute___ to charge for ___every 1%___. And finally ___from 80%___ it will take ___3 minutes to charge 1%___.
@@ -272,8 +287,11 @@ Sample Output 0
 Explanation 0  
 
 ___For the first test case, from 35% to 60% it will take 25 minutes. From 60% to 80% it will take 40 minutes and from 80% to 100% it will take 60 minutes. In total 25+40+60=125 minutes.___
+
+---
 ### Secret Code
 ---
+
 ### Problem Statement
 
 Noman is a social worker. He wants to keep his documents secret. That's why he has bought a safe with him in his house. Now he wants to put a secret code into the safe. He was thinking that a number N would be a good secret code if no other number except 1 and N can divide that number. So, he was thinking of some numbers, can you help him to find the one he was looking for?
@@ -307,8 +325,11 @@ No
 No  
 No  
 No
+
+---
 ### Divide Them
 ---
+
 ### Problem Statement
 
 English teacher Mr. Rahim of class Ten asked for the homeworks of the students. Class captain has collected all the notebooks and put them in table. But the class captain put the notebooks of girls first, and then the notebooks of the boys. So Mr. Rahim asked the captain to keep the boy's notebooks to the left side and then the girl's notebooks. If the last index (index starts from 1) of a girl's notebook is K then can you print them in the right order? Note: If K is 0, that means there is no girl's notebook.
@@ -338,8 +359,11 @@ Sample Input 0
 Sample Output 0  
 
 12 10 14 3 19 2 4 5 1 6
+
+---
 ### Hand Shakes
 ---
+
 ### Problem Statement
 
 Phitron planned to throw a party for the students. In the party we found that N students are present. However, as a formality we asked each student to shake hands with each other student. You will have to count the number of unique hand-shakes in that party. N will be an input in your C program and the total number of hand-shakes will be the output. Look at the sample input and outputs for clarification
@@ -386,9 +410,11 @@ Sample Output 1
 136
 
 # Mid Exam 2
+
 ---
 ### Operator!!
 ---
+
 ### Problem Statement
 
 You are given a string ___S___ consisting only ___+(Addition),*(Multiplication).___ The next line will contain two positive values.  
@@ -435,6 +461,7 @@ Print the summation which were perform based on String ___S___.
 ---
 ### Lucky Seven!!
 ---
+
 ### Problem Statement
 
 A palindrome is a word whose spelling is the same when we spell it from forward or backward. Your task is to print the word in the given condition:
@@ -475,3 +502,64 @@ Case #3: madam
 Case #2: m13m  
 Case #1: Not Palindrome  
 Case #1: Not Palindrome
+
+---
+### Two-Dimensional Operation
+---
+
+### Problem Statement
+
+A matrix is a 2D array of numbers arranged in rows and columns. We give you a Matrix of N rows and M columns.  
+
+Now your task is to do this operation on this matrix:  
+
+- If the value matches with the current row and column number then add 3 with the value.
+- If the value matches with only the current row number then add 2 with the value.
+- If the value matches with only the current column number then add 1 with the value.
+
+### Input Format
+
+- The first line contains N is the number of rows in this matrix and M is the number of columns in this matrix
+- The second line contains a 2D array Arr[i][j].
+
+### Constraints
+
+- 1 <= N, M <= 10
+- 0 <= Arr[i][j] <= 100
+
+### Output Format
+
+Print the matrix after the operation is done.  
+
+### Sample Input 0
+
+3 3  
+1 1 1  
+1 1 1  
+1 1 1  
+
+### Sample Output 0
+
+4 3 3  
+2 1 1  
+2 1 1  
+
+### Explanation 0
+
+In this sample input,
+
+![image](https://user-images.githubusercontent.com/24230435/203062650-25c93eba-88ea-4d06-845b-01014805b23b.png)
+
+
+When row=1 and column=1 also value of this location is 1, So we add 3 to this value after this operation the value of this location is 4.
+
+![image](https://user-images.githubusercontent.com/24230435/203062406-e40d3d1c-65a7-4c6b-b0dc-c5f78bda5550.png)
+
+
+When row=1 and column=2 also value of this location is 1 which match with the row only, So we add 2 to this value after this operation the value of this location is 3.
+
+![image](https://user-images.githubusercontent.com/24230435/203062520-13fe6438-0845-439c-b67f-07214f85cce0.png)
+
+When row=2 and column=1 also value of this location is 1 which match with the column only, So we add 1 to this value after this operation the value of this location is 2.  
+
+So this way we check all value row and column then do the operation.
