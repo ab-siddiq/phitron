@@ -1,10 +1,10 @@
 #include<stdio.h>
 
-int lastDigitSum(int arr[],int i,int n){
-    if(i==n) return 0;
-    int s=lastDigitSum(arr,i+1,n);
+int lastDigitSum(int arr[],int n){
+    if(n<0) return 0;
+    int s=lastDigitSum(arr,n-1);
     // printf("%d=>",s);
-    return s+(arr[i]%10);
+    return s+(arr[n]%10);
 }
 
 int main(){
@@ -14,5 +14,5 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    printf("%d",lastDigitSum(arr,0,n));
+    printf("%d",lastDigitSum(arr,n-1));
 }
